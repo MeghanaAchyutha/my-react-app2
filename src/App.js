@@ -18,12 +18,24 @@ function App() {
         borderRadius: '8px'
       }}>
         <h2>Simple Form</h2>
-        <input type="text" placeholder="Enter your name" style={{ width: '100%', padding: '8px', marginBottom: '10px' }} />
-        <button style={{ padding: '8px 12px', backgroundColor: '#333', color: 'white', border: 'none' }}>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          style={{ width: '100%', padding: '8px', marginBottom: '10px' }}
+        />
+        <button
+          style={{
+            padding: '8px 12px',
+            backgroundColor: '#333',
+            color: 'white',
+            border: 'none'
+          }}
+        >
           Submit
         </button>
       </div>
     </div>
   );
 }
+
 
